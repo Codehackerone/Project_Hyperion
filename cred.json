@@ -1,0 +1,15 @@
+{
+  "from_email": "",
+  "from_password": "",
+  "from_smtp": "smtp.gmail.com",
+  "from_port": 587,
+  "chromedriver_path": "C:\\chromedriver.exe",
+  "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "wolfram_app_id": "",
+  "newsapi_key": "",
+  "weather_apikey": "",
+  "twilio_sid": "",
+  "twilio_auth_token": "",
+  "location_api": "",
+  "rapid_api": ""
+}
