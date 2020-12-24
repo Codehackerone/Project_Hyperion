@@ -1,0 +1,22 @@
+<% layout('layouts/boilerplate')%>
+    <center>
+        <h1>YOUR CURRENT LOCATION</h1>
+        <h2>Latitude=
+            <%=latitude %>
+        </h2>
+        <h2>Longitude=
+            <%=longitude  %>
+        </h2>
+        <% const coordinates=[longitude,latitude]%>
+    </center>
+
+
+
+    <div id='map' style='width: 100%; height: 500px;'></div>
+    <script>
+        const coordinates = '<%-coordinates%>'
+        const latitude = '<%-latitude%>';
+        const longitude = '<%-longitude%>';
+    </script>
+
+    <script src="/javascripts/showPageMap.js"></script>
